@@ -54,8 +54,12 @@
         <VALUES>
          <item>
           <FIELD>ACTVT</FIELD>
-          <VALUE>Change, Create or generate, Display, Delete</VALUE>
+          <VALUE>Delete, Change, Create or generate, Display</VALUE>
           <VALUES>
+           <item>
+            <UUID>UQC3WRtAHt+fnlJf2cSbRQ==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
+           </item>
            <item>
             <UUID>UQC3WRtAHt+fnlJf2cRbRQ==</UUID>
             <LOW_VALUE>02</LOW_VALUE>
@@ -67,10 +71,6 @@
            <item>
             <UUID>UQC3WRtAHt+fnlJf2cR7RQ==</UUID>
             <LOW_VALUE>03</LOW_VALUE>
-           </item>
-           <item>
-            <UUID>UQC3WRtAHt+fnlJf2cSbRQ==</UUID>
-            <LOW_VALUE>06</LOW_VALUE>
            </item>
           </VALUES>
           <TEXT>Activity</TEXT>
@@ -86,6 +86,11 @@
     <PLUGIN_CONFIG>
      <item>
       <UI_OBJECT>cscn_type_selection</UI_OBJECT>
+      <IS_VISIBLE>X</IS_VISIBLE>
+      <IS_ENABLED>X</IS_ENABLED>
+     </item>
+     <item>
+      <UI_OBJECT>cscn_obs_ping_supported</UI_OBJECT>
       <IS_VISIBLE>X</IS_VISIBLE>
       <IS_ENABLED>X</IS_ENABLED>
      </item>

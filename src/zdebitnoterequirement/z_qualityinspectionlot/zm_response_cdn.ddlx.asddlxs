@@ -8,6 +8,8 @@
 
 annotate view ZC_RESPONSE_CDN with
 {
+
+
   @UI.facet:
   [
   {

@@ -8,6 +8,8 @@
 }
 annotate view ZC_INS_CHAR with
 {
+
+
   @UI.facet:
   [
       {

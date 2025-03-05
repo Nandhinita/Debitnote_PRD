@@ -12,6 +12,8 @@
 }annotate view ZC_WGTTOLERANCE
     with 
 {
+
+
      @UI.facet:
   [
       {
